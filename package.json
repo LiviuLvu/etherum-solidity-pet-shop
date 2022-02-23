@@ -9,9 +9,9 @@
   "scripts": {
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier-format": "npx prettier --write .",
+    "prepare": "husky install",
     "prettier-check": "npx prettier --check .",
-    "prepare": "husky install"
+    "prettier-format": "npx prettier --write ."
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
