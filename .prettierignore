@@ -2,6 +2,9 @@
 .vscode/
 out/
 dist/
+build/
 test-fixtures/
 node_modules/
 *.min.*
+*.html
+truffle-contract.js
