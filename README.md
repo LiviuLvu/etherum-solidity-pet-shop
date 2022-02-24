@@ -2,6 +2,6 @@
 
 https://trufflesuite.com/tutorial/index.html
 
-node v10.24.1  
+node v16
 truffle@5.2.0  
 compiler v0.5.0
