@@ -1,5 +1,5 @@
 {
-  "name": "pet-shop",
+  "name": "etherum-solidity-pet-shop",
   "version": "1.0.0",
   "description": "Trying out solidity smart contracts",
   "main": "truffle.js",
@@ -22,7 +22,7 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
     "lite-server": "^2.3.0",
-    "prettier": "2.5.1"
+    "prettier": "^2.5.1"
   },
   "dependencies": {}
 }

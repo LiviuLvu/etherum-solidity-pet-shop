@@ -8,6 +8,8 @@ contract Adoption {
     require(petId >= 0 && petId <= 15);
 
     adopters[petId] = msg.sender; // address of person or smart contract who called function
+
+    return petId;
   }
 
   function getAdopters() public view returns (address[16] memory) {
